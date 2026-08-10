@@ -53,7 +53,6 @@ html {
     rotate: 0deg;
     top: 10px;
     left: 1030px;
-
 }
 .vector-4780 {
     width: 317px;
@@ -140,8 +139,6 @@ html {
     border-color: #202027;
     border: 1px solid;
 }
-
-
 .ticker-wrap {
     margin-top: 156px;
     background-color: #BCEC30;
@@ -180,4 +177,124 @@ html {
 }
 .img-container {
     display: flex;
+}
+.games-desc {
+    background-color: #202027;
+    padding-left: 119px;
+}
+.star-1 {
+    width: 584.7165528971053;
+    height: 584.7165528971053;
+    top: 897px;
+    left: 983px;
+    rotate: 6.77 deg;
+    opacity: 1;
+    border-width: 1px;
+}
+.star-11 {
+    width: 31.339238597680133;
+    height: 31.339238597680133;
+    top: 1570px;
+    left: 25px;
+    rotate: -5.45 deg;
+    opacity: 1;
+    border-width: 1px;
+}
+.star-12 {
+    width: 54.59828476423661;
+    height: 54.59828476423661;
+    top: 1622px;
+    left: 40px;
+    rotate: -5.45 deg;
+    opacity: 1;
+    border-width: 1px;
+
+}
+.games {
+    margin-top: 72px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    column-gap: 32px;
+    flex-wrap: wrap;
+}
+.games-about {
+    padding-top: 94px;
+   &__main {
+       font-family: Montserrat;
+       font-weight: 700;
+       font-style: Bold;
+       font-size: 64px;
+       line-height: 100%;
+       vertical-align: middle;
+       color: #FFFFFF;
+       margin: 0px;
+   } 
+   &__text {
+       font-family: Montserrat;
+       font-weight: 400;
+       font-style: Regular;
+       font-size: 24px;
+       line-height: 32px;
+       vertical-align: middle;
+       color: #FFFFFF;
+   }
+}
+.game-card {
+    opacity: 1;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    grid-column: span 4;
+    z-index: 2;
+    
+    &__number {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        vertical-align: bottom;
+        background-color: #F7F7F7;
+        width: 108px;
+        height: 36px;
+        opacity: 1;
+        border-radius: 52.58px;
+        padding-top: 8px;
+        padding-left: 16px;
+        margin-top:32px;
+        margin-left: 32px;
+    }
+    &__name{
+        font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        line-height: 100%;
+        vertical-align: middle;
+        padding-left: 32px;
+        margin-top: 16px;
+    }
+}
+.game-card-1 {
+    width: 378px;
+    height: 473px;
+}
+.game-card-2 {
+    width: 378px;
+    height: 512px;
+}
+.game-card-3 {
+    width: 378px;
+    height: 473px;
+}
+.game-card-4 {
+    width: 378px;
+    height: 551px;
+}
+.game-card-5 {
+    width: 378px;
+    height: 512px;
+    margin-top: 35px;
+}
+.game-card-6 {
+    width: 378px;
+    height: 551px;
 }
