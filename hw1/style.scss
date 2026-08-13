@@ -7,6 +7,10 @@
 html {
     font-family: "Montserrat";
 }
+* {
+    margin: 0;
+    padding: 0;
+}
 .top {
     background-color: #E1FF8F;
     display: block;
@@ -50,9 +54,7 @@ html {
 .vector-main {
     width: 749.546150562564;
     height: 791.0606383139971;
-    rotate: 0deg;
-    top: 10px;
-    left: 1030px;
+    left: 1036px;
 }
 .vector-4780 {
     width: 317px;
@@ -110,6 +112,7 @@ html {
 }
 .btn {
     margin-left: 120px;
+    margin-top: 48px;
     display: flex;
     align-items: center;
 
@@ -212,8 +215,8 @@ html {
 }
 .games {
     margin-top: 72px;
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
+    display: flex;
+    /*grid-template-columns: repeat(12,1fr);*/
     column-gap: 32px;
     flex-wrap: wrap;
 }
@@ -245,6 +248,7 @@ html {
     background-color: #FFFFFF;
     grid-column: span 4;
     z-index: 2;
+    text-decoration: none;
     
     &__number {
         font-family: Montserrat;
@@ -261,6 +265,7 @@ html {
         padding-left: 16px;
         margin-top:32px;
         margin-left: 32px;
+        color: #202027;
     }
     &__name{
         font-family: Montserrat;
@@ -271,6 +276,7 @@ html {
         vertical-align: middle;
         padding-left: 32px;
         margin-top: 16px;
+        color: #202027;
     }
 }
 .game-card-1 {
@@ -292,7 +298,7 @@ html {
 .game-card-5 {
     width: 378px;
     height: 512px;
-    margin-top: 35px;
+    margin-top: 32px;
 }
 .game-card-6 {
     width: 378px;
