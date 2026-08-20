@@ -66,7 +66,7 @@ html {
 .vector-main {
   width: 749.546150562564;
   height: 791.0606383139971;
-  left: 1036px;
+  right: 0px;
 }
 
 .vector-4780 {
@@ -249,13 +249,18 @@ html {
 .games-desc {
   background-color: #202027;
   padding-left: 119px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .star-1 {
   width: 584.7165528971053;
   height: 584.7165528971053;
   top: 897px;
-  left: 983px;
+  right: 0px;
   rotate: 6.77 deg;
   opacity: 1;
   border-width: 1px;
@@ -316,13 +321,14 @@ html {
   line-height: 32px;
   vertical-align: middle;
   color: #FFFFFF;
+  padding-top: 24px;
 }
 
 .game-card {
   opacity: 1;
   border-radius: 30px;
   background-color: #FFFFFF;
-  grid-column: span 4;
+  /*grid-column: span 4;*/
   z-index: 2;
   text-decoration: none;
 }
