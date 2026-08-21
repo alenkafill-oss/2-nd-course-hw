@@ -11,6 +11,10 @@ html {
     margin: 0;
     padding: 0;
 }
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
 .top {
     background-color: #E1FF8F;
     display: block;
@@ -147,14 +151,17 @@ html {
     background-color: #BCEC30;
     height: 90px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     overflow: hidden;
     white-space: nowrap;
     position: relative;
     z-index: 2;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
 }
 .ticker-move {
-    width: 100%;
+    width: 100vw;
     white-space: nowrap;
     display: flex;
     column-gap: 51px;
